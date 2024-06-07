@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/static/css/audios/musica.mp3
+/src/main/resources/static/videos/torpedo.mp4
