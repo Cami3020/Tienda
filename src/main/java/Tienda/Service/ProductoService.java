@@ -30,6 +30,6 @@ public interface ProductoService {
     //Lista de productos utilizando consultas con SQL Nativo
     public List<Producto> metodoNativo(double precioInf, double precioSup);
 
-    //Select * from Producto where existencias between (inf, sup) order by descripcion
+    
     public List<Producto> findByExistenciasBetweenOrderByDescripcion(int existenciasMin, int existenciasMax);
 }
